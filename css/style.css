@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: visible;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+:root {
+    /* Theme colors */
+    --purple: #5a5377;
+    --yellow: #dbc554;
+    --gray: #212529;
+    --white: #ffffff;
+}
+
+/* ----------Global Classes---------- */
+
+h1 {
+    /* font-family: Abel; */
+    
+    font-size: 2.5rem;
+    padding : 40px;
+    color: #dbc554;
+
+}
+h2 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #3585d4;
+}
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.container {
+    margin: 0 5vh;
+
+}
+/* ----------Global Classes---------- */
+
+/* ----------Site title----------- */
+main .site-title {
+   
+    /* display: flex; */
+    /* position: relative; */
+    justify-content: center;
+    
+}
+
+main .site-title .site-text {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    color: var(--white); 
+    
+}
+main .site-title .image {
+   
+    background: url('../images/Background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+main .site-title h1, h3 {
+    margin: 3rem;
+}
+
+main .site-title h1 {
+    background-color: var(--yellow);
+    color: var(--purple);
+}
+
+main .site-title.btn {
+    margin: 1.8rem;
+    background-color: var(--white);
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+
+
+/* ----------Site title----------- */
+
+
+/* ---------Upcoming Events ----------- */
+
+main .upcoming-events {
+    height: 50vh;
+    width: 100%;
+}
+
+main .upcoming-events .event-info h3{
+    text-align: center;
+    
+}
+
+
+/* ---------Upcoming Events ----------- */
+
+/* -----------Past Events ------------ */
+main h1 {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #5a5377;
+    border-radius: 20px;
+}
+main h3 {
+    text-align: center;
+    max-height: 3vh;
+    margin: 48px 0 48px 0;
+    padding: 0 10px;
+}
+
+main .past-events {
+    height: 100vh;
+    width: 100%;
+}
+
+main .past-events .event-info {
+    padding-top: 0rem;
+}
+
+main .event-info .event-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0,0,0, 0.2);
+
+}
+
+
+main .event-content .event-title {
+    padding: 2rem 0;
+}
+main .event-content .btn-events {
+    padding: .7rem 2rem;
+    background: var(--gray);
+    color: var(--white);
+    margin: .75rem;
+}
+@media screen and (max-width: 770px) {
+    main .event-content .event-title {
+        font-size: 0.9rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+/* -----------Past Events ------------ */
+
+
+
