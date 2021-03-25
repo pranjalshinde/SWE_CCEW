@@ -71,3 +71,28 @@ h2 {
     }
 
 }
+/* ---footer--- */
+
+#footer {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    padding-bottom: 0.1rem;
+    background-color: #a9a9a9;
+    color: black;
+  
+  }
+  .footer-text{
+    color: black;
+  }
+  .copyright{
+    margin-top: -15px;
+  }
+  .social-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  
