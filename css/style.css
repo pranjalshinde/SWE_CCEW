@@ -17,6 +17,8 @@ html, body {
     --white: #ffffff;
 }
 
+
+
 /* ----------Global Classes---------- */
 
 h1 {
@@ -52,7 +54,7 @@ button.btn {
 main .site-title {
    
     /* display: flex; */
-    /* position: relative; */
+    position: relative;
     justify-content: center;
     
 }
@@ -128,7 +130,7 @@ main h1 {
     margin-top: 3rem;
     text-align: center;
     background-color: #5a5377;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 main h3 {
     text-align: center;
@@ -176,5 +178,26 @@ main .event-content .btn-events {
 }
 /* -----------Past Events ------------ */
 
-
-
+#footer {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    padding-bottom: 0.1rem;
+    background-color: #a9a9a9;
+    color: black;
+  
+  }
+  .footer-text{
+    color: black;
+  }
+  .copyright{
+    margin-top: -15px;
+  }
+  .social-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  
